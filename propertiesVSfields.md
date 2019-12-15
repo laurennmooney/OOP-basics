@@ -143,9 +143,7 @@ Properties are not required to have a getter and a setter at the same time.
 So if a property is Read-Only (getter only) - you are unable to set the value outside of the class.
 On the other hand, if the property is Write-Only - you are unable to get the value outside of the class.
 
-_"Well then how do you even set the value of a readonly property???"_
-
-- You can do it in the constructor.
+_"Well then how do you even set the value of a readonly property???"_ You can do it in the constructor.
 
 ```csharp
 class User
