@@ -22,8 +22,8 @@
     key2: 2
   };
   ```
-  
-  OR a more detailed example:
+
+**OR a more detailed example:**
 
 ```js
 human = {
