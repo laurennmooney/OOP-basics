@@ -4,6 +4,14 @@
 
 As someone who is new to the world of software development and primarily has experience with front-end development, C# was a new beast to me, so these are the notes I took for myself to learn the basics of OOP and C#.
 
-This is a work in progress.
+**Hope these help you too** :heart:
 
-**Hope these help you too <3**
+### Table of Contents
+1. [Introduction](../master/intro.md)
+2. [Classes](../master/classes.md)
+3. [Namespaces](../master/namespaces.md)
+4. ['This' Keyword](../master/thiskeyword.md)
+5. [Properties and Fields](../master/propertiesVSfields.md)
+6. [Static Fields](../master/staticfields.md)
+
+This is a work in progress, so there will be more to come as I continue to learn as well :smile:
