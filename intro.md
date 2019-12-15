@@ -16,23 +16,19 @@
         - an object is constructed of at least one or more key/value pairs - called properties.
 
             ```js
-            {
             exampleObject = {
                 key1: 1,
                 key2: 2,
-            }
             }
             ```
 
         OR a more detailed example:
 
             ```js
-            {
             human = {
                 height: 63,
                 weight: 110,
                 hairColor: "blonde",
-            }
             }
             ```
 
