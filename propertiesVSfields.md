@@ -22,7 +22,8 @@ By making fields private, only the class they are contained within can access th
   So the property is declared below the fields and above the constructor.
 - Visual Studio has a shortcut you can use to make a property (prop + TAB + TAB)
   It usually has a public access modifier, the data type of the property you want to access, and the name of the property.
-  The name of the property follows the name of the field. HOWEVER, they are typed differently. Fields are written in camelCase, while properties are written in PascalCase.
+
+The name of the property follows the name of the field. HOWEVER, they are typed differently. Fields are written in camelCase, while properties are written in PascalCase.
 
 **Example:**
 
@@ -80,9 +81,11 @@ As stated above, we can expand getters and setters to allow for validation logic
 ```csharp
 class User
 {
+    // fields
     private string username;
     private int password;
 
+    // properties
     public string Username
     {
         get
@@ -97,11 +100,10 @@ class User
             }
             else
             {
-                Console.WriteLine("Oops, this username isn't valid. Please use a username with 4 to 10 characters!);
+                Console.WriteLine("Oops, this username isn't valid. Please use a username with 4 to 10 characters!");
             }
         }
     }
-
     public int Password
     {
         get
@@ -133,11 +135,11 @@ class User
 ### ReadOnly, WriteOnly, and ReadWrite properties:
 
 Properties are not required to have a getter and a setter at the same time.
-
 - Getter: Read.
 - Setter: Write.
-  So if a property is Read-Only (getter only) - you are unable to set the value outside of the class.
-  On the other hand, if the property is Write-Only - you are unable to get the value outside of the class.
+
+So if a property is Read-Only (getter only) - you are unable to set the value outside of the class.
+On the other hand, if the property is Write-Only - you are unable to get the value outside of the class.
 
 _"Well then how do you even set the value of a readonly property???"_
 
