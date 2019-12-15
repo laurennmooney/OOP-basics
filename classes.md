@@ -136,4 +136,4 @@ class Program
 
 ## IT'S IMPORTANT TO NOTE NOW THAT THIS IS ALL A STEP BY STEP INSTRUCTION OF THIS AND THIS IS NOT THE BEST NOR FINAL WAY OF SETTING UP A CLASS.
 
-### Please move on to the [thiskeyword](../blob/master/thiskeyword.md) notes for more detail :)
+Please move on to the [thiskeyword](../master/thiskeyword.md) notes for more detail :)

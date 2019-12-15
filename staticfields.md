@@ -1,41 +1,49 @@
-What are static variables?
+## Static variables
 
-    - You've seen the "static" in front of some fields or methods. Like the Main() in the main entry point to a project.
-    - Static means that the field can be accessed without creating an instance of your class.
+### What are static variables?
 
-    So using the example that we switched to of User, let's create a static field of ID.
+You've seen the "static" in front of some fields or methods. Like the Main() in the main entry point to a project.
+Static means that the field can be accessed without creating an instance of your class.
 
-        class User
-        {
-            public static int ID;
-        }
+**So using the example that we switched to of User, let's create a static field of ID:**
 
-    If you were to go to the Main() of your project and type:
+```csharp
+class User
+{
+    public static int ID;
+}
+```
 
-        Console.WriteLine(User.ID); // this would print 0.
+If you were to go to the Main() of your project and type:
 
-    What if we wanted to increment the ID for every instance of the class?
+```csharp
+Console.WriteLine(User.ID); // this would print 0.
+```
 
-        class User
-        {
-            public static int ID;
+What if we wanted to increment the ID for every instance of the class?
 
-            private string username;
-            private int password;
+```csharp
+class User
+{
+    public static int ID;
 
-            public string Username { get };
-            public int password { set };
+    private string username;
+    private int password;
 
-            public User() // remember empty constructors??
-            {
-                ID++;
-            }
+    public string Username { get };
+    public int password { set };
 
-            public User(string username)
-            {
-                ID++;
-                this.username = username;
-            }
-        }
+    public User() // remember empty constructors??
+    {
+        ID++;
+    }
 
-    Why are static data types useful? Well, they let you share a variable across all instances of a class, and each of these classes can change the value of that fields. Each can access it and each can change it.
+    public User(string username)
+    {
+        ID++;
+        this.username = username;
+    }
+}
+```
+
+Why are static data types useful? Well, they let you share a variable across all instances of a class, and each of these classes can change the value of that fields. Each can access it and each can change it.
