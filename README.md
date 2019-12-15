@@ -1,4 +1,4 @@
-# Intro to Object Oriented Programming with C
+# Intro to Object Oriented Programming with C# :D #
 
 ## This repo exists to help beginners to programming in general or beginners to object-oriented programming learn the basics of C#!
 
