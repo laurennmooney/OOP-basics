@@ -118,8 +118,9 @@ class User
             }
             else
             {
-                Console.WriteLine("Oops, this password isn't valid. Please use a password between 4 and 10.);
+                Console.WriteLine("Oops, this password isn't valid. Please use a password between 4 and 10.");
             }
+        }
     }
 
     public User(string username, int password)
@@ -127,7 +128,7 @@ class User
         this.username = username;
         this.password = password;
     }
-    }
+}
 ```
 
 ---
@@ -135,6 +136,7 @@ class User
 ### ReadOnly, WriteOnly, and ReadWrite properties:
 
 Properties are not required to have a getter and a setter at the same time.
+
 - Getter: Read.
 - Setter: Write.
 
