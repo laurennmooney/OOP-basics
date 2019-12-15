@@ -1,3 +1,5 @@
+# Classes and Constructors
+
 ### Creating a basic class:
 
 You use the keyword "class" with the name you want as the class following it.
@@ -29,6 +31,7 @@ class program
 ```
 
 So now that you've created a new INSTANCE of your class Human, you can assign values to the properties of this object.
+
 - You can do this by using the . operator, which gives you access to all the members of a given class (members are the fields, properties, methods, and everything else that defines a class):
 
 ```csharp
@@ -41,11 +44,12 @@ static void Main
 }
 ```
 
-  - - - -
+---
 
 ### What are constructors:
 
 -A constructor is a method that will literally CONSTRUCT your class.
+
 - This method has the name of the class and no data type with it.
 - All classes have a constructor, even if it is not explicitly defined. Visual Studio will create a default one for you under the hood.
 - A constructor may or may not take in arguments as well. Arguments are the things within the parentheses.
@@ -79,7 +83,6 @@ Human human = new Human(63, 110);
 
 - this will correctly assign 63 to Height and 110 to Weight
 
-
 So now if you want to access the specific properties of the object to print to the console, you would write it using dot notation, like this:
 
 &nbsp;**Example:**
@@ -88,7 +91,6 @@ So now if you want to access the specific properties of the object to print to t
 Console.WriteLine(human.Height); // prints 63 when ran
 Console.WriteLine(human.Weight); // prints 110 when ran
 ```
-
 
 You can have multiple constructors in a class. So for example, you could have an empty constructor or you could have one that requires argument(s).
 
@@ -120,20 +122,18 @@ class Program
 {
     static void Main()
     {
-        Human human1 = new Human(); 
+        Human human1 = new Human();
         // no arguments, so properties can be assigned later, like below
 
         human1.Height = 70;
         human1.Weight = 130;
 
-        Human human2 = new Human(63, 110) 
+        Human human2 = new Human(63, 110)
         // arguments provided, so Height and Weight are assigned accordingly.
     }
 }
 ```
 
 ## IT'S IMPORTANT TO NOTE NOW THAT THIS IS ALL A STEP BY STEP INSTRUCTION OF THIS AND THIS IS NOT THE BEST NOR FINAL WAY OF SETTING UP A CLASS.
-### Please move on to the thiskeyword notes for more detail :)
 
-
-    
+### Please move on to the [thiskeyword](../blob/master/thiskeyword.md) notes for more detail :)
