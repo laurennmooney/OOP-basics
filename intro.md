@@ -15,7 +15,7 @@
         - Well, anything can be an object! Anything that can be described with a given set of properties, such as a person, car, house, etc. For example, every person has a height and weight, or every car has a color and an engine, and a house has a certain number of doors and windows.
         - an object is constructed of at least one or more key/value pairs - called properties.
 
-            ```javascript
+            ```
             exampleObject = {
                 key1: value1,
                 key2: value2
@@ -24,7 +24,7 @@
 
         OR a more detailed example:
 
-            ```javascript
+            ```
             human = {
                 height: 63,
                 weight: 110,
