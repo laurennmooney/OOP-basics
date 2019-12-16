@@ -10,22 +10,22 @@ Static means that the field can be accessed without creating an instance of your
 ```csharp
 class User
 {
-    public static int ID;
+    public static int id;
 }
 ```
 
 If you were to go to the Main() of your project and type:
 
 ```csharp
-Console.WriteLine(User.ID); // this would print 0.
+Console.WriteLine(User.id); // this would print 0.
 ```
 
-What if we wanted to increment the ID for every instance of the class?
+What if we wanted to increment the id for every instance of the class?
 
 ```csharp
 class User
 {
-    public static int ID;
+    public static int id;
 
     private string username;
     private int password;
@@ -35,15 +35,17 @@ class User
 
     public User() // remember empty constructors??
     {
-        ID++;
+        id++;
     }
 
     public User(string username)
     {
-        ID++;
+        id++;
         this.username = username;
     }
 }
 ```
+
+In the above example, this will assign an id to every instance of the class User, and it will increment with each instance. However, since id is a static field, you can access the field without having an actual instance. Make sense?
 
 Why are static data types useful? Well, they let you share a variable across all instances of a class, and each of these classes can change the value of that fields. Each can access it and each can change it.

@@ -13,5 +13,6 @@ As someone who is new to the world of software development and primarily has exp
 4. ['This' Keyword](../master/thiskeyword.md)
 5. [Properties and Fields](../master/propertiesVSfields.md)
 6. [Static Fields](../master/staticfields.md)
+7. [Constants](../master/constants.md)
 
 This is a work in progress, so there will be more to come as I continue to learn as well :smile:

@@ -17,7 +17,7 @@ We have properties of Height and Weight, declared with uppercase letters at the 
 
 - Typically, these declarations are called **FIELDS** of a class, not properties.
 - You will usually declare these fields using camelCase, not PascalCase.
-- We will get into properties vs fields and their differences later, but fields are the types of properties that the class can have. The constructor will be responsible for assignment of the properties (that correspond to the fields) to values for the particular instance of the class. See [propertiesVSfields](../master/propertiesVSfields.md) for more detail!
+- We will get into properties vs fields and their differences later, but fields are the types of properties that the class can have. The constructor will be responsible for assignment of the properties (that correspond to the fields) to values for the particular instance of the class. See [Properties and Fields](../master/propertiesVSfields.md) for more detail!
 
 ```csharp
 class Human

@@ -2,7 +2,7 @@
 
 ### What are properties and fields and what are the differences?
 
-So like I mentioned back in [thiskeyword](../master/thiskeyword.md), the "properties" we declared at the top of our class are ACTUALLY called fields.
+So like I mentioned back in [This Keyword](../master/thiskeyword.md), the "properties" we declared at the top of our class are ACTUALLY called fields.
 Generally, _FIELDS ARE ALMOST ALWAYS PRIVATE, NOT PUBLIC_ - like we had before. By the way, these are called access modifiers.
 
 **Example:**
