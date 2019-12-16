@@ -3,7 +3,9 @@
 ### This repo exists to help beginners to programming in general or beginners to object-oriented programming learn the basics of C#!
 
 So I'm Lauren, a front-end developer who is on her way and **determined** to become full-stack.
+
 I didn't start developing seriously until July 2019. As someone who is new to the world of software development and has more experience with frontend development than backend, C# was a new beast to me.'
+
 I'm a notetaker, and I love to help people learn. So this is my attempt to spread my knowledge for others also!
 
 **I hope my notes and explanations can help you too** :heart:
