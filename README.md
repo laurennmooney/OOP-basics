@@ -7,8 +7,9 @@ So I'm Lauren, a front-end developer who is on her way and **determined** to bec
 I didn't start developing seriously until July 2019. As someone who is new to the world of software development and has more experience with frontend development than backend, C# was a new beast to me.'
 
 I'm a notetaker, and I love to help people learn. So this is my attempt to spread my knowledge for others also!
+I DO NOT consider myself an expert. This is merely a consolidation of my random notes taken from resources I've used to learn on my own, whether its videos, articles, or people.
 
-**I hope my notes and explanations can help you too** :heart:
+**However, I hope my notes and explanations can help you too** :heart:
 
 ### Table of Contents
 
