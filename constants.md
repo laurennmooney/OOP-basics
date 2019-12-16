@@ -11,7 +11,7 @@ There are two types of constants:
 1. Const keyword - this must be defined before you run your code. In other words, this is hard-coded, so you set the specific value. For example, you might hard-code a specific const value in the constructor of a class.
 2. Readonly keyword - these are defined after you run the code and it gets its value somewhere down the line.
 
-#### Readonly keyword
+### Readonly keyword
 
 **So, let's take a look at our example from [Static Fields](../master/static.fields) and expand on it a bit**
 
@@ -86,7 +86,7 @@ Typically, naming convention for constants is ONLY CAPITAL LETTERS (this may be 
 
 - If there are spaces in the name, then underscores are used. For example, PINATTEMPTLIMIT would be PIN_ATTEMPT_LIMIT.
 
-#### Const keyword
+### Const keyword
 
 Now we will touch on the const keyword.
 When using const, you MUST initialize the value of the field at the time of declaration.
