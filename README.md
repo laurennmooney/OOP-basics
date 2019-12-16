@@ -20,6 +20,7 @@ I'm a notetaker, and I love to help people learn. So this is my attempt to sprea
 6. [Static Fields](../master/staticfields.md)
 7. [Constants](../master/constants.md)
 8. [Enumerations](../master/enums.md)
+9. [Static Classes](../master/static-classes.md)
 
 This is a work in progress, so there will be more to come as I continue to learn as well :blush:
 Enjoy!
