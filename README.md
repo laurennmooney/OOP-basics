@@ -19,6 +19,7 @@ I'm a notetaker, and I love to help people learn. So this is my attempt to sprea
 5. [Properties and Fields](../master/propertiesVSfields.md)
 6. [Static Fields](../master/staticfields.md)
 7. [Constants](../master/constants.md)
+8. [Enumerations](../master/enums.md)
 
-This is a work in progress, so there will be more to come as I continue to learn as well :smile:
+This is a work in progress, so there will be more to come as I continue to learn as well :blush:
 Enjoy!
