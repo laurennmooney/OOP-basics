@@ -4,7 +4,7 @@
 
 So I'm Lauren, a front-end developer who is on her way and **determined** to become full-stack.
 
-I didn't start developing seriously until July 2019. As someone who is new to the world of software development and has more experience with frontend development than backend, C# was a new beast to me.'
+I didn't start developing seriously until July 2019. As someone who is new to the world of software development and has more experience with frontend development than backend, C# was a new beast to me.
 
 I'm a notetaker, and I love to help people learn. So this is my attempt to spread my knowledge for others also!
 I DO NOT consider myself an expert. This is merely a consolidation of my random notes taken from resources I've used to learn on my own, whether its videos, articles, or people.
@@ -22,6 +22,7 @@ I DO NOT consider myself an expert. This is merely a consolidation of my random 
 7. [Constants](../master/constants.md)
 8. [Enumerations](../master/enums.md)
 9. [Static Classes](../master/static-classes.md)
+10. [Order of Evaluation](../master/order-of-eval.md)
 
 This is a work in progress, so there will be more to come as I continue to learn as well :blush:
 Enjoy!
