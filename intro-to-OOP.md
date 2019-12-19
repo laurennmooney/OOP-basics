@@ -50,3 +50,16 @@ Classes allow us to create our own custom data types, which are at its lowest le
 
 - It allows you to organize your code much easier. We can create our own classes, which will each have its own file.
 - It helps to maintain and extend your code.
+
+### Okay, but WHAT is object-oriented programming?
+
+- It is basically a programming paradigm, or model/pattern.
+- Classes and objects are the building blocks of OOP.
+- Initially, OOP was invented to model or reflect real-world objects. The reason was to make it easier for developers to develop software.
+- As time went on, OOP actually evolved into something much more. It evolved into a way that we can write more flexible, maintainable, and scalable software. 
+
+**So, why objects?**
+
+The idea behind objects is to be able to expose data and functionality that can manipulate the data we are storing.
+
+So, basically, objects give us the ability to expose functionality while hiding its implimentation. This is powerful because we are making it easier for other developers to use our code, because they don't need to worry about the details. All they need to see is the thing that we are returning them and the process that will be done for them. 
