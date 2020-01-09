@@ -13,7 +13,7 @@ I DO NOT consider myself an expert. This is merely a consolidation of my random 
 
 ### Table of Contents
 
-1. [Introduction to OOP](../master/intro.md)
+1. [Introduction to OOP](../master/intro-to-OOP.md)
 2. [Classes](../master/classes.md)
 3. [Namespaces](../master/namespaces.md)
 4. ['This' Keyword](../master/thiskeyword.md)
