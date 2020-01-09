@@ -2,12 +2,11 @@
 
 ## Some basic terminology, which will be described more in depth later:
 
-1. Class - describes an object. Used to create an object.
-2. Namespace - used to structure and organize your files/classes in your project.
-3. Constructor - constructs your class and gives initial values to your objects.
-4. Fields - used to describe your object. They are within a class.
-5. Properties - these allow the "outside world" to access the fields of a class.
-6. Const and Readonly constants - we'll get there.
+1. **Class** - describes an object. Used to create an object.
+2. **Namespace** - used to structure and organize your files/classes in your project.
+3. **Constructor** - constructs your class and gives initial values to your objects.
+4. **Fields** - used to describe your object. They are within a class.
+5. **Properties** - these allow the "outside world" to access the fields of a class.
 
 ### What is Object Oriented Programming (OOP) and why is it used?
 
@@ -56,10 +55,10 @@ Classes allow us to create our own custom data types, which are at its lowest le
 - It is basically a programming paradigm, or model/pattern.
 - Classes and objects are the building blocks of OOP.
 - Initially, OOP was invented to model or reflect real-world objects. The reason was to make it easier for developers to develop software.
-- As time went on, OOP actually evolved into something much more. It evolved into a way that we can write more flexible, maintainable, and scalable software. 
+- As time went on, OOP actually evolved into something much more. It evolved into a way that we can write more flexible, maintainable, and scalable software.
 
 **So, why objects?**
 
 The idea behind objects is to be able to expose data and functionality that can manipulate the data we are storing.
 
-So, basically, objects give us the ability to expose functionality while hiding its implimentation. This is powerful because we are making it easier for other developers to use our code, because they don't need to worry about the details. All they need to see is the thing that we are returning them and the process that will be done for them. 
+So, basically, objects give us the ability to expose functionality while hiding its implimentation. This is powerful because we are making it easier for other developers to use our code, because they don't need to worry about the details. All they need to see is the thing that we are returning them and the process that will be done for them.
