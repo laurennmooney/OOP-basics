@@ -23,6 +23,7 @@ I DO NOT consider myself an expert. This is merely a consolidation of my random 
 8. [Enumerations](../master/enums.md)
 9. [Static Classes](../master/static-classes.md)
 10. [Order of Evaluation](../master/order-of-eval.md)
+11. [Strings and Ints](../master/strings-and-ints.md)
 
 This is a work in progress, so there will be more to come as I continue to learn as well :blush:
 Enjoy!
