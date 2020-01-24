@@ -21,7 +21,7 @@ I DO NOT consider myself an expert. This is merely a consolidation of my random 
 6. [Static Fields](../master/staticfields.md)
 7. [Constants](../master/constants.md)
 8. [Enumerations](../master/enums.md)
-9. [Static Classes](../master/static-vs-nonstatic.md)
+9. [Static vs Nonstatic](../master/static-vs-nonstatic.md)
 10. [Order of Evaluation](../master/order-of-eval.md)
 11. [Strings and Ints](../master/strings-and-ints.md)
 12. [The Four Pillars of OOP](../master/four-pillars.md)
