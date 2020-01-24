@@ -1,8 +1,9 @@
-## Static Classes
+## Static vs Nonstatic
 
-### What are static classes?
+### What are static classes and methods?
 
-Similiarly to static fields, you can also have static classes. Just like static fields, static classes do NOT need to be instantiated.
+Similiarly to static fields, you can also have static classes and static methods. Just like static fields, static classes do NOT need to be instantiated. Likewise, even if the class itself isn't static, if there is a method within the class that is a static method, you can call that method without instance of the class.
+
 An example of a static class is the Console class. 
 
 For example, when you use
@@ -53,5 +54,16 @@ Utilities.ColorfulWriteLine("hey there", ConsoleColor.Blue);
 
 Fun Fact: ConsoleColor is an enum! See [Enumerations](../master/enums.md) if you need a refresher :wink:
 
-### Cool, right?
+**Now, here's an example of a static method:**
+```csharp
+// pretend this is within a NONSTATIC class of Person
+static void greet()
+{
+    Console.WriteLine("Hi there!");
+}
 
+// then you can call it like this in your program
+Person.greet(); // prints "Hi there!" with no error
+```
+
+**Important thing to note**: when it comes to static and nonstatic, you only need to place the static keyword before fields/classes/methods when you want them to be static. For nonstatic, this is a default that doesn't require a keyword.
