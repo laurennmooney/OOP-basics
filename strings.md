@@ -1,4 +1,4 @@
-## Strings and Ints: The Data Types, Built-in Methods, and Manipulation
+## Strings: The Data Type, Built-in Methods, and Manipulation
 
 ### What are strings? And ints?
 
@@ -39,7 +39,7 @@ Above, we are using TryParse(), which is a pre-written method on the int data ty
 
 So if the user enters 1000, it will convert the string "1000" to the int 1000.
 
-#### Comparisons of strings
+### Comparisons of strings
 
 There may be times where you need to compare values of a string. Strings also have their own methods, some of which allow you to do this. One of these methods is Equals();
 
@@ -115,3 +115,72 @@ So what this does is that it takes in a template, which is the first argument to
 Yup.
 
 **_To Be Continued...._**
+
+### String Length and Accessing Certain Characters
+
+You may already know this, but oh well. Just like arrays, strings have a length. It counts characters in the string.
+
+```csharp
+string name = "Lauren";
+Console.WriteLine(name.Length); // prints 6
+```
+
+Also just like an array, you can access a certain character in a string. Starts at 0.
+```csharp
+string name = "Lauren";
+Console.WriteLine(name[4]); // prints 'e'
+```
+
+### Substringing
+
+Substringing allows you to grab a part of the string. This is another built in method on strings. You use the index number to start at (this index number IS included in the count) and then the length of characters you want to substring.
+```csharp
+String.Substring(indexToStartAt, howManyIndexesToPrint)
+```
+
+```csharp
+string text = "Here is some text";
+
+// let's print just "some" to the console
+Console.WriteLine(greeting.Substring(8, 4)); // prints "some"
+```
+
+### ToUpper and ToLower
+
+Relatively simple, these methods allow you to transform a string to all uppercase or all lowercase. These don't sound handy, but they are.
+
+```csharp
+String.ToUpper();
+String.ToLower();
+```
+
+Simple.
+
+### What about creating an empty string?
+
+So, you can do that. You can do something as simple as:
+```csharp
+string emptyString = "";
+```
+
+However, this is not the cleanest way to do it.
+
+Soooo you can do this instead:
+```csharp
+string emptyString = String.empty();
+```
+
+_**Much Better**_
+
+### Replacing strings
+
+You can also replace text in a string with another built in method, called Replace(). You pass in the text you want to replace and the text to replace it with. See below.
+
+```csharp
+string greeting = "Hello there!"
+
+string coolerGreeting = greeting.Replace("Hello", "Hey");
+Console.WriteLine(coolerGreeting); // prints "Hey there!"
+```
+
+#### There's a lot you can do and ways you can manipulate strings. These are the most commonly used, but there are a number of others as well! 
