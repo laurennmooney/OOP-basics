@@ -18,6 +18,7 @@ Well, I got my answer, at least for C#, and its called **Order of Evaluation**, 
 | sizeof & * + - ~ ! ++ -- (prefix) | Unary              | right to left |
 | * / %                             | Multiplicative     | left to right |
 | + -                               | Additive           | left to right |
+| = \*= /= += -= <<= >>= &= ^= \|=   | Simple and Compound Assignment | right to left | 
 
 This is a shortened form of the table. There are a whole bunch of different operations that are included in Order of Evaluation.
 
