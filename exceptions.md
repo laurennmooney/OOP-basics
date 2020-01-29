@@ -31,7 +31,7 @@ An exception should be thrown when:
 - An inappropriate call to an object is made, based on the object state (_InvlidOperationException_)
 - When an argument to a method causes an exception (_ArgumentException_)
 
-Exceptions contain a property named StackTrace, a string that contains the name of the methods on the current call stack, together with the file name and line number where the exception was thrown for each method. This StackTrace object created automatically by the common language runtime (CLR) from the point of the throw statement, so that exceptions must be thrown from the point where the stack trace should begin. Thank you, [Microsoft](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/exceptions/creating-and-throwing-exceptions).
+Exceptions contain a property named StackTrace, a string that contains the name of the methods on the current call stack, together with the file name and line number where the exception was thrown for each method. This StackTrace object created automatically by the common language runtime (CLR) from the point of the throw statement, so that exceptions must be thrown from the point where the stack trace should begin. Thank you, <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/exceptions/creating-and-throwing-exceptions" target="_blank">Microsoft</a>.
 
 ### Handling Exceptions
 
