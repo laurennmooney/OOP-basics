@@ -99,3 +99,5 @@ class Human
 Enums help prevent possible mistakes by a user - it gives them a set of values from which they can choose, all of which are handled.
 
 This helps to protect your code.
+
+[HOME](../master)

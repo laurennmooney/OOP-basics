@@ -62,3 +62,5 @@ Classes allow us to create our own custom data types, which are at its lowest le
 The idea behind objects is to be able to expose data and functionality that can manipulate the data we are storing.
 
 So, basically, objects give us the ability to expose functionality while hiding its implimentation. This is powerful because we are making it easier for other developers to use our code, because they don't need to worry about the details. All they need to see is the thing that we are returning them and the process that will be done for them.
+
+[HOME](../master)

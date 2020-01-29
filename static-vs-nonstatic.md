@@ -67,3 +67,5 @@ Person.greet(); // prints "Hi there!" with no error
 ```
 
 **Important thing to note**: when it comes to static and nonstatic, you only need to place the static keyword before fields/classes/methods when you want them to be static. For nonstatic, this is a default that doesn't require a keyword.
+
+[HOME](../master)

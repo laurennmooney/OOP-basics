@@ -174,3 +174,5 @@ catch (Exception ex)
 ```
 
 This is because it removes the StackTrace (which is basically a history of all the calls that have happened), which removes the origin of where the exception started.
+
+[HOME](../master)

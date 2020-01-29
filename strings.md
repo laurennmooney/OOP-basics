@@ -184,3 +184,5 @@ Console.WriteLine(coolerGreeting); // prints "Hey there!"
 ```
 
 #### There's a lot you can do and ways you can manipulate strings. These are the most commonly used, but there are a number of others as well! 
+
+[HOME](../master)

@@ -49,3 +49,5 @@ class User
 In the above example, this will assign an id to every instance of the class User, and it will increment with each instance. However, since id is a static field, you can access the field without having an actual instance. Make sense?
 
 Why are static data types useful? Well, they let you share a variable across all instances of a class, and each of these classes can change the value of that fields. Each can access it and each can change it.
+
+[HOME](../master)
