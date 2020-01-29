@@ -25,6 +25,7 @@ I DO NOT consider myself an expert. This is merely a consolidation of my random 
 10. [Order of Evaluation](../master/order-of-eval.md)
 11. [Strings](../master/strings.md)
 12. [The Four Pillars of OOP](../master/four-pillars.md)
+13. [Exceptions and Handling](../master/exceptions.md)
 
 This is a work in progress, so there will be more to come as I continue to learn as well :blush:
 Enjoy!
