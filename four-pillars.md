@@ -139,6 +139,8 @@ Why are fields always private? It helps to hide implementation details (related 
 
 So, other objects cannot directly access or use the object's state, only the object itself can through public methods that other object's can call on.
 
+Let's check out a real life example for a better idea:
+
 **Example**
 
 ```csharp
@@ -203,9 +205,11 @@ class Car
 }
 ```
 
-In the above example, we are using the _literal_ process of starting a car engine (no I don't actually know these details. This is just an example that helped me!). So the method StartEngine() is _public_ and can be accessed outside of the class. However, notice how the method StarterMotorEngineTurnsOver() is called within StartEngine(). Alas, a chain of events occur as this method calls another method and that other method calls another. Notice though that those chain-event methods have a _private_ access modifier. What this is doing is allowing an outside member to use the StartEngine() method -- which will still call the private methods no problem, because of the fact that the StartEngine() method is within that class -- but will NOT allow outside members to call the four private methods.
+In the above example, we are using the _literal_ process of starting a car engine (no I don't actually know these details. This is just an example that helped me!). So the method StartEngine() is **public** and can be accessed outside of the class. Then, the method StarterMotorEngineTurnsOver() is called within StartEngine(). Alas, a chain of events occur as this method calls another method and that other method calls another and so on. Notice though that those chain-event methods have a **private** access modifier. 
 
-Just like in real life, we are hiding the details of starting the car engine. Sure, all those things happen _under the hood_ (haaaaa), but all we know is that when we turn the key, the engine starts. We don't need to know every step in order to make it happen. Yay, encapulation.
+What this is doing is allowing an outside member to use the StartEngine() method -- which will still call the private methods no problem, because of the fact that the StartEngine() method is within that class -- but will NOT allow outside members to call the four private methods.
+
+Just like in real life, we are hiding the details of starting the car engine. Sure, all those things happen **_under the hood_** (haaaaa), but all we know is that when we turn the key, the engine starts. We don't need to know every step in order to make it happen. Yay, encapulation.
 
 **So if we were to do thiiiis:**
 
